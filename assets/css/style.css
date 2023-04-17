@@ -1,8 +1,3 @@
-img {
-    height: 3rem;
-}
-
-
 footer {
     background: black;
     padding: 20px 0;
@@ -15,14 +10,36 @@ footer {
 }
 
 body  {
-    background-color: #006298;
+    /* background-color: #006298; */
+    background-color: black;
 }
 
 .card {
-    border: none;
+    
+    /* border: none; */
     background-color: #006298;
 }
 
 .portafolio {
     padding-top: 50px;
+}
+
+nav encabezado {
+    background-color: black;
+}
+
+encabezado {
+    background-color: black;
+}
+
+.card-text {
+    color: white;
+}
+
+.card-title {
+    color: white;
+}
+
+.small {
+    color: white;
 }
