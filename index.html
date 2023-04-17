@@ -42,7 +42,7 @@
                     <a class="nav-link  text-light h3" href="#portafolio">Portafolio</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link  text-light h3" href="#">Contacto</a>
+                    <a class="nav-link  text-light h3" href="#contacto">Contacto</a>
                     </li>
                 </ul>
                 </div>
@@ -80,7 +80,7 @@
         
     </main>
     
-    <section class="container-center mt-5 mb-5" id="portafolio">
+    <section class="container mt-5 mb-5" id="portafolio">
         <h5 class="card-title fs-1 text-center mt-5 mb-5 ">PORTAFOLIO</h5>
 
         <div class="row g-3">
@@ -217,6 +217,85 @@
 
 
     </section>
+
+
+    <section class="container mt-5 mb-5 " id="contacto">
+
+        <h5 class="card-title fs-1 text-center mt-5 mb-5 ">CONTACTAME</h5>
+
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-12 ">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="text-light">Ingresa tu nombre</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="text-light">Ingresa tu correo</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="text-light">Asunto</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form text-light">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Escribe tu mensaje</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary">Send</a>
+                    </div>
+                
+            </div>
+            <!--Grid column-->
+
+
+
+        </div>
+
+    </section>
+
+
+
 
     <footer>
         <div>
